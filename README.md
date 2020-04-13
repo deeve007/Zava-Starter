@@ -11,7 +11,7 @@ The child theme is set up with minimal styles and functions to get every develop
 - Very basic, commonly used but easily removed two column layout.
 - Two commonly used CSS grid layouts included, 3 column and 4 column.
 
-Any of these features can be removed in seconds by deleating a few lines of code.
+Any of these features can be removed in seconds by deleting a few lines of code.
 
 ## How to use
 

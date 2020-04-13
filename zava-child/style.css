@@ -1,0 +1,254 @@
+/*
+ Theme Name:   Zava Starter child
+ Description:  Child theme for Zava Starter theme
+ Author:       Zava Design
+ Author URI:   https://zava.design
+ Template:     zava-starter
+*/
+
+
+/*--------------------------------------------------------------
+# Layout basics
+--------------------------------------------------------------*/
+.site-header, .site-content, .site-footer {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+@media only screen and (min-width: 800px)  {
+	.site-content .content-area:nth-last-child(2) {
+		float: left;
+		width: 65%;
+		margin-bottom: 0;
+	}
+	.site-content .widget-area {
+		float: right;
+		width: 30%;
+	}
+}
+.page-content, .entry-content, .entry-summary {
+	margin-top: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Simple grid - just what is needed
+--------------------------------------------------------------*/
+.wrapper-grid {
+	display: grid;
+	grid-gap: 2em;
+}
+@media only screen and (min-width: 800px)  {
+	.wrapper-grid.grid3 {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.wrapper-grid.grid4 {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+.wrapper-grid div { /* delete this for production */
+	background-color: #eee;
+}
+
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+html { 
+	overflow-y: scroll; 
+	overflow-x: hidden;
+} 
+.entry-title {
+	margin-top: 0;
+}
+h1 {
+	line-height: 1.3;
+}
+a, a:active, a:focus {
+	outline: none;
+}
+p:first-child {
+	margin-top: 0;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+img.size-page-default {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5em;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.wrapper-site-header {
+	margin-bottom: 3em;
+}
+.site-branding {
+	padding: 1.5em 0;
+}
+.site-title {
+	margin: 0;
+	font-size: inherit;
+	font-weight: inherit;
+}
+@media (max-width: 800px) {
+	#site-navigation {
+		display: none;
+	}
+}
+@media (min-width: 800px) {
+	#menu, .mm-ocd--open {
+		display: none;
+	}
+}
+a.mobile-toggle {
+	background-image: url('img/hamburger.svg');
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: 99;
+}
+@media (min-width: 800px) {
+	a.mobile-toggle {
+		display: none;
+	}
+}
+.main-navigation ul ul a {
+    background: #eee;
+	padding: 0.5em 0.75em;
+}
+.main-navigation ul ul a:hover {
+    background: #f8f8f8;
+}
+
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+body.page {
+	margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Posts
+--------------------------------------------------------------*/
+article .entry-meta {
+	margin-bottom: 1.5em;
+}
+article .entry-footer {
+	margin-top: 1.5em;
+}
+article .entry-footer .cat-links, article .entry-footer .tags-links {
+	display: block;
+}
+article .entry-footer .cat-links a, article .entry-footer .tags-links a {
+	background: rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+	font-size: 0.8rem;
+}
+article .entry-footer .cat-links a:hover, article .entry-footer .tags-links a:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+
+/*--------------------------------------------------------------
+# Comments - delete this section of comments not used on site
+--------------------------------------------------------------*/
+.comments-title {
+	border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+}
+.comment-list {
+	padding: 0;
+	margin: 0 0 1.5em 0;
+	list-style-type: none;
+}
+.comment-list .children {
+	padding: 0;
+	margin: 0 0 0 2em;
+}
+.comment-list .children .children {
+	margin-left: 0;
+}
+.comment-meta {
+	margin-bottom: 0.25em;
+}
+.comment-meta a {
+	color: inherit;
+	text-decoration: none;
+}
+.comment-meta a:hover {
+	text-decoration: underline;
+}
+.comment-meta .comment-author {
+	display: inline;
+}
+.comment-meta .edit-link {
+	font-size: .7rem;
+}
+.comment-author .says {
+	display: none;
+}
+.comment-author .fn span {
+	font-weight: 300;
+}
+.comment-meta .comment-metadata {
+	display: inline;
+}
+.comment-body {
+	position: relative;
+	margin: 1em 0;
+	padding-right: 5em;
+}
+.comment-body .reply {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.comment-body .reply a {
+	background: rgba(0, 0, 0, 0.8);
+	display: inline-block;
+	color: #fff;
+	padding: 0.5em .75em;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.comment-respond {
+	background: rgba(0, 0, 0, 0.02);
+	padding: 2em;
+	margin: 3em 0 1.5em;
+}
+.comment-reply-title {
+	margin-top: 0;
+}
+p.form-submit {
+	margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.wrapper-site-footer {
+	background: rgba(0, 0, 0, 0.05);
+	padding: 2em 0;
+	margin-top: 3em;
+}

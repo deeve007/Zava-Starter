@@ -13,7 +13,7 @@ The child theme is set up with minimal styles and functions to get every develop
 
 Any of these features can be removed in seconds by deleating a few lines of code.
 
-# How to use
+## How to use
 
 To use for your own projects:
 1. Download parent & child theme, and copy into your Wordpress project "themes" folder.
@@ -22,7 +22,7 @@ To use for your own projects:
 4. In the child theme folder, open "style.css" and change "zava-starter" on line 6 to your renamed parent theme folder name.
 5. You're now ready to begin customising the child theme for your project!
 
-# Acknowledgement
+## Acknowledgement
 
 Just a shout out on twitter would be nice: https://twitter.com/zavadesign
 

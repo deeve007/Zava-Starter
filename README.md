@@ -2,7 +2,7 @@
 
 Blank Wordpress starter theme built on Underscores with Mmenu app-like menu integrated for small screens.
 
-The objective of this theme is to provide a blank, extremely fast loading parent & child theme to give developers a head start when develooing custom Wordpress themes for their projects.
+The objective of this theme is to provide a blank, extremely fast loading parent & child theme to give developers a head start when developing custom Wordpress themes for their projects. We use it at https://zava.design for most of our client projects.
 
 The parent theme is all Underscores, and can be updated at anytime simply by downloading the current theme from the Underscores website, and copying into the parent theme folder ("zava-starter").
 

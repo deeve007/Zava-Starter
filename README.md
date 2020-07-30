@@ -7,8 +7,8 @@ The objective of this theme is to provide a blank, extremely fast loading parent
 The parent theme is all Underscores, and can be updated at anytime simply by downloading the current theme from the Underscores website, and copying into the parent theme folder ("zava-starter").
 
 The child theme is set up with minimal styles and functions to get every developer off to a fast start, and with the following frequently used features built in:
-- MMenu app-like off canvas menu for small screens.
-- Very basic, commonly used but easily removed two column layout.
+- "MMenu" app-like off canvas menu for small screens.
+- Very basic, commonly used but easily removed two column layout by default.
 - Two commonly used CSS grid layouts included, 3 column and 4 column.
 
 Any of these features can be removed in seconds by deleting a few lines of code.
